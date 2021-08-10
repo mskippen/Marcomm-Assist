@@ -4,6 +4,7 @@ const mongoose = require("mongoose");
   mongoose.connect(process.env.MONGO_URI || "mongodb://localhost/marcomm_app", {
       useNewUrlParser: true,
       useFindAndModify: true,
-    }).catch(err => console.log(err))
+      useUnifiedTopology: true
+    })
 
 module.exports = mongoose.connection;
