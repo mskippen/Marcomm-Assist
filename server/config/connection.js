@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const connection = () =>
   mongoose
-    .connect("mongodb://localhost/marcomm_app", {
+    .connect(process.env.MONGO_URI, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     })
