@@ -4,7 +4,7 @@
   "description": "A project management system for internal marketing and communications departments.",
   "main": "./server/server.js",
   "scripts": {
-    "start": "cd server && npm start",
+    "start": "node ./server/server",
     "dev": "concurrently \"cd server && npm run dev\" \"cd client && npm start\"",
     "seed": "cd server && npm run seed"
   },
