@@ -1,8 +1,8 @@
 # Marcomm-Assist
 A project management system for internal marketing and communications departments.
 
-Github: <https://github.com/mskippen/Marcomm-Assist.git><br>
-URL: Launch the application via Heroku here <https://budgettracker-19ms.herokuapp.com/>
+Github: <https://github.com/mskippen/Marcomm-Assist/tree/master><br>
+URL: Launch the application via Heroku here <https://marcomm-assist.herokuapp.com/>
 
 ## User Story
 
