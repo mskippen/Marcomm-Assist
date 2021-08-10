@@ -1,0 +1,63 @@
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.campaign {
+  padding-top: 4rem;
+  width: 63%;
+  background: #000000a6;
+  padding: 4rem;
+  margin: 0 auto;
+}
+.campaign .ui.grid {
+  display: block !important;
+}
+.CampaignPage .ui.container {
+  padding-top: 4rem !important;
+}
+
+.Homepage {
+  background: url(./images/logo.jpg);
+  height: 100vh;
+}
+
+.CampaignPage {
+  background: url(./images/logoform.jpg);
+}
+
+.Homepage .wrapper {
+  padding-top: 10rem;
+  color: #fff;
+}
+
+.Homepage .logo-container {
+  width: 223px;
+}
+.AuthPage {
+  min-height: 80vh;
+  margin-top: 5rem;
+}
+.Projectpage {
+  min-height: 90vh;
+}
+
+.CampaignPage {
+  min-height: 85vh;
+}
+
+.Footer {
+  /* position: fixed; */
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100vw;
+  background: #1b1c1d;
+  color: #fff;
+  padding: 2rem;
+}
+
+.Footer img {
+  width: 157px;
+}

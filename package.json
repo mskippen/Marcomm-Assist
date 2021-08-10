@@ -1,0 +1,25 @@
+{
+  "name": "marcomm-assist",
+  "version": "1.0.0",
+  "description": "A project management system for internal marketing and communications departments.",
+  "main": "./server/server.js",
+  "scripts": {
+    "start": "cd server && npm start",
+    "dev": "concurrently \"cd server && npm run dev\" \"cd client && npm start\"",
+    "seed": "cd server && npm run seed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mskippen/Marcomm-Assist.git"
+  },
+  "author": "Megan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mskippen/Marcomm-Assist/issues"
+  },
+  "homepage": "https://github.com/mskippen/Marcomm-Assist#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^6.2.1"
+  }
+}
