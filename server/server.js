@@ -45,6 +45,7 @@ app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "../client/build/index.html"));
 });
 
-db();
+db().once('open', () => {
+  app.listen(PORT, () => console.log(`Server running on ${PORT}`));
+})
 
-app.listen(PORT, () => console.log(`Server running on ${PORT}`));
